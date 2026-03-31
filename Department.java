@@ -11,10 +11,6 @@ public class Department {
         profList = new Professors[numOFProfessors];
     }
 
-    public Department() {
-
-    }
-
     public void Search_professor (String d) {
         boolean f = true;
         for (int i = 0 ; i<numOfProfessors;i++) {
